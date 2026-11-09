@@ -36,8 +36,7 @@ session event is added. The plugin writes no DOM outside its own React tree.
 - Localised through the Client locale service in English and Simplified
   Chinese; metadata is exported in `locale/en.json` and `locale/zh.json`.
 - Bars and rings are inline SVG/CSS, not images or canvas.
-- Accent colors follow the five Mayday balls — blue, red, yellow, green, and
-  orange.
+- Accent colors use blue, red, yellow, green, and orange.
 - The card shows detailed readings: model/tool time, first-token latency, output
   speed, uncached input, cache read/write, output, total, cache-hit rate, context
   occupancy, and the system/tools/messages composition.
@@ -93,7 +92,7 @@ Refresh the page after installation. The bundle patch inserts the
 - **上下文已用**：占用环、已用/容量、系统/工具/消息构成
 - 自适应宽度，窄屏自动纵向堆叠
 - 启用时隐藏 DSH 自带的会话统计、Token 用量和上下文占用环，避免重复
-- 五月天五球配色，中英文界面
+- 五色强调色，中英文界面
 
 安装：打开 **设置 → 插件 → 添加**，填入：
 

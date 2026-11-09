@@ -1,6 +1,6 @@
 {
   "name": "@cendo91/dsh-session-telemetry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "type": "module",
   "description": "Graphical session statistics, token usage, and context occupancy with a detailed breakdown below the composer",

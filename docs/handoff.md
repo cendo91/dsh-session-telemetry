@@ -48,7 +48,7 @@ fragile part.
 
 ## Palette
 
-Five-ball accents: `#2d6bff`, `#ff4d5e`, `#f5b700`, `#2fbf71`, `#ff8a3d`.
+Accent palette: `#2d6bff`, `#ff4d5e`, `#f5b700`, `#2fbf71`, `#ff8a3d`.
 Text, dividers, and surfaces use `--dsw-alias-*` theme tokens.
 
 ## Before release

@@ -2,7 +2,7 @@
 
 DeepSeek Harness Web UI plugin. This directory is the repository root.
 
-- Current release: **1.0.0**
+- Current release: **1.0.1**
 - Tested DSH: **0.2.2-rc.1**
 - npm: `@cendo91/dsh-session-telemetry`
 - GitHub: `cendo91/dsh-session-telemetry`
