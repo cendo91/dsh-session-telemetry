@@ -1,0 +1,64 @@
+{
+  "name": "@cendo91/dsh-session-telemetry",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Graphical session statistics, token usage, and context occupancy with a detailed breakdown below the composer",
+  "license": "MIT",
+  "author": "cendo91",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cendo91/dsh-session-telemetry.git"
+  },
+  "homepage": "https://github.com/cendo91/dsh-session-telemetry#readme",
+  "bugs": {
+    "url": "https://github.com/cendo91/dsh-session-telemetry/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "telemetry",
+    "tokens",
+    "context",
+    "composer"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "check": "node --check index.js && node --check client.js",
+    "pack:check": "npm pack --dry-run"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "dsh": "^0.2.2-rc.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

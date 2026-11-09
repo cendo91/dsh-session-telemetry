@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Session telemetry">
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#101827"/>
+  <circle cx="14" cy="37" r="6.5" fill="#2d6bff"/>
+  <circle cx="23" cy="31" r="6.5" fill="#ff4d5e"/>
+  <circle cx="32" cy="28" r="6.5" fill="#f5b700"/>
+  <circle cx="41" cy="31" r="6.5" fill="#2fbf71"/>
+  <circle cx="50" cy="37" r="6.5" fill="#ff8a3d"/>
+</svg>

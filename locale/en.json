@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session telemetry",
+    "description": "Graphs session counts, token usage, and context occupancy below the composer with a detailed breakdown."
+  }
+}
